@@ -4,7 +4,7 @@ import os
 from assets import HANGMANPICS
 
 # absolute path within pythonanywhere
-dictPath = '/home/eruji/Dropbox/PythonAnywhere/EpicHangman/dict.txt'
+dictPath = '/home/eruji/Dropbox/PythonAnywhere/Hangman/dict.txt'
 
 
 def getRandomWord():
