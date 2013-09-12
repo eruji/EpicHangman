@@ -36,7 +36,7 @@ def getGuess(alreadyGuessed):
     while True:
         # print('Guess a letter.')
         guess = raw_input("Guess a Letter.\n")
-        guess = guess.lower()
+        guess = guess.lower().strip()
         if len(guess) != 1:
             print('Please enter a single letter.')
         elif guess in alreadyGuessed:
